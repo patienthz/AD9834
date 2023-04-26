@@ -1,0 +1,4 @@
+../Core/Src/ad9834.c:15:6:AD9834_Write_16Bits	24	static
+../Core/Src/ad9834.c:68:6:AD9834_Select_Wave	16	static
+../Core/Src/ad9834.c:96:6:AD9834_Init	8	static
+../Core/Src/ad9834.c:122:6:AD9834_Set_Freq	24	static

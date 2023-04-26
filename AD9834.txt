@@ -1,0 +1,114 @@
+Configuration	AD9834
+STM32CubeMX 	6.7.0
+Date	04/07/2023
+MCU	STM32G474RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+USART1	Asynchronous	USART1_RX	PC5
+USART1	Asynchronous	USART1_TX	PC4
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [blue push button]
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+14	PA2	LPUART1_TX	LPUART1_TX [STLINKV3E_VCP_RX]
+17	PA3	LPUART1_RX	LPUART1_RX [STLINKV3E_VCP_TX]
+19	PA5	GPIO_Output	LD2 [green led]
+20	PA6	GPIO_Output	AD9834_FSYNC
+21	PA7	GPIO_Output	AD9834_SCLK
+22	PC4	USART1_TX	
+23	PC5	USART1_RX	
+30	PB10	USART3_TX	
+33	PB11	USART3_RX	
+34	PB12	GPIO_Output	AD9834_PS
+45	PA11	GPIO_Output	AD9834_SDATA
+46	PA12	GPIO_Output	AD9834_RESET
+49	PA13	SYS_JTMS-SWDIO	T_SWDIO
+50	PA14	SYS_JTCK-SWCLK	T_SWCLK
+56	PB3*	SYS_JTDO-SWO	T_SWO
+59	PB6	GPIO_Output	AD9834_FS
+PERIPHERALS	MODES	FUNCTIONS	PINS
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+USART1	Asynchronous	USART1_RX	PC5
+USART1	Asynchronous	USART1_TX	PC4
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [blue push button]
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+14	PA2	LPUART1_TX	LPUART1_TX [STLINKV3E_VCP_RX]
+17	PA3	LPUART1_RX	LPUART1_RX [STLINKV3E_VCP_TX]
+19	PA5	GPIO_Output	LD2 [green led]
+20	PA6	GPIO_Output	AD9834_FSYNC
+21	PA7	GPIO_Output	AD9834_SCLK
+22	PC4	USART1_TX	
+23	PC5	USART1_RX	
+30	PB10	USART3_TX	
+33	PB11	USART3_RX	
+34	PB12	GPIO_Output	AD9834_PS
+45	PA11	GPIO_Output	AD9834_SDATA
+46	PA12	GPIO_Output	AD9834_RESET
+49	PA13	SYS_JTMS-SWDIO	T_SWDIO
+50	PA14	SYS_JTCK-SWCLK	T_SWCLK
+56	PB3*	SYS_JTDO-SWO	T_SWO
+59	PB6	GPIO_Output	AD9834_FS
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : AD9834
+Project Folder : C:\Users\Lenovo\STM32CubeIDE\workspace_1.11.0\AD9834
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G4 V1.5.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
